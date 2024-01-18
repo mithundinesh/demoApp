@@ -36,9 +36,9 @@ function Header({ setContinent, continent }) {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <div>
-                            <div onClick={() => handleTabs("all")} style={{ backgroundColor: continent === "all" ? "blue" : "" }} className="border my-2 p-3 fs-3">All</div>
-                            <div onClick={() => handleTabs("Asia")} style={{ backgroundColor: continent === "Asia" ? "blue" : "" }} className="border my-2 p-3 fs-3">Asia</div>
-                            <div onClick={() => handleTabs("Europe")} style={{ backgroundColor: continent === "Europe" ? "blue" : "" }} className="border my-2 p-3 fs-3">Europe</div>
+                            <div onClick={() => handleTabs("all")} style={{ backgroundColor: continent === "all" ? "#7CB9E8" : "" }} className="border my-2 p-3 fs-3">All</div>
+                            <div onClick={() => handleTabs("Asia")} style={{ backgroundColor: continent === "Asia" ? "#7CB9E8" : "" }} className="border my-2 p-3 fs-3">Asia</div>
+                            <div onClick={() => handleTabs("Europe")} style={{ backgroundColor: continent === "Europe" ? "#7CB9E8" : "" }} className="border my-2 p-3 fs-3">Europe</div>
                         </div>
                     </Offcanvas.Body>
                 </Offcanvas>
